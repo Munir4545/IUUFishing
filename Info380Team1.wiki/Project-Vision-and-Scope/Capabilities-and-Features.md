@@ -1,0 +1,40 @@
+## Security 
+**Data encryption** ensures the confidentiality of the sensitive satellite and GPS data as it will be difficult or nearly impossible for adversaries to interpret and possibly manipulate data. Encryption converts data from a human-readable format to an encoded format and must be decrypted in order to decipher. Only those who work directly with the GPS and satellite data should have access to the keys that decipher the encrypted data. The tracking system must use the most updated encryption standard, AES (Advanced Encryption Standards), as it will be fast and efficient for the large amount of data that this system will store. 
+**Multi-factor authentication** involves two or more forms of signing in to the system to confirm the identity of a user. The three most common types of factors are something you know (password or PIN), something you have (a device), and something you are (biometrics). This system will implement at least two of these factors, if not all three, to prevent unauthorized users from taking advantage of one type of login, such as password cracking, to gain access to the system. With multi-factor authentication, users of this system must be able to provide a password, confirm their identity with a second device, and biometrics, and it’s highly unlikely that adversaries have all three.
+**Role-based access** control allows the system administrators to control the type of access each user will have to the data. This control tightens the security of the system as users will only have access to the necessary data for their roles and allows for efficient resource allocation.
+**Regular security updates** and assessments are necessary for the system’s security since it can contain vulnerabilities in the architecture which should be patched as quickly as possible. If these vulnerabilities aren’t patched, adversaries can use these holes in the architecture and exploit them by hacking, installing malware, and stealing data. Security assessments are critical to ensure that the system complies with current security standards, especially when there are updates to the standards. 
+
+## User-friendly interface
+An **intuitive interface** will be implemented to ensure that all users can conveniently and efficiently access the necessary data to complete their tasks. This system will cater to the needs of users with various backgrounds, and will have a simple and consistent design to guarantee user understanding and reduced confusion of the functions of the system. 
+	A **responsive design** entails that users will access the system through various types of devices, so the interface must render well and adapt to those devices to ensure consistent usability. For example, if they were to access the system through a laptop, the interface would be displayed at a resolution and size that adjusts to the laptop’s screen. 
+	**Customizable user preferences** will be implemented in order for users to make the system personalized, engaging, and satisfactory. This will include accessibility needs such as screen readers, color contrast, alt text, text sizing. The main customizable features of this system will be reports and dashboards to allow stakeholders to meaningfully piece together their data and evidence. 
+	**Comprehensive help resources** will be included in the system to aid users in understanding the features if they are unfamiliar with the system. These resources will include an FAQ, data documentation, and support channel. 
+
+## Reporting
+**Flexible reporting** **options** include customized reports and dashboards that enable users to communicate their findings to other stakeholders in a clear and concise manner. 
+	**Real-time data visualization** would alert users of the system about illegal fishing activities as they are occuring so that they can quickly gather data on the perpetrators and build a case to prosecute them.
+	**Ability to import and export data in standard formats** will be included to facilitate data integration and migration with other systems. 
+**Integration with Analytics tools** is an integral part to the system as it will allow previous data from existing IT systems such as data management and analytics tools, satellite imagery providers, and other data sources to merge into a streamlined data store that can clean and organize data. The system will use ETL and data pipelines will handle a lot of data without slowing the process to achieve integration.
+  	
+## Integration
+**API support** would enable various applications to communicate and transfer data to each other, supporting the process of data transfer from existing IT systems to the cloud-based system. 
+**Data exchange capabilities** would facilitate the transfer of data between the existing IT systems and data stores and the proposed tracking system. Through this capability, data can also be shared between stakeholders, promoting collaboration and keeping everyone knowledgeable and updated. 
+**Compliance with industry standards** entails that the data being captured and transferred is within jurisdiction of the stakeholders, and that the data is well protected and secured as it’s being transferred. 
+**Single sign-on (SSO) support** would simplify the login process for users of this massive reporting system as they would only need one set of credentials to securely authenticate with various applications within the system.
+ 
+## Backup and Disaster Recovery 
+**Automatic data backups** ensure that the collected data will be protected and saved without the need for manual backups that would be costly and time consuming. It is crucial that the system includes this feature in the case of damage to the system or data theft. 
+**Recovery objectives** include the recovery time objective - the maximum amount of time the Joint Venture has to restore its system processes at an acceptable service level after a catastrophe to prevent intolerable consequences of the damage - and the recovery point objective - the maximum amount of tolerable data loss from a catastrophe to the Joint Venture.
+**Data redundancy** will be implemented by duplicating data and storing it in multiple
+locations such as the existing IT systems and the reporting system.
+****Data retention** policies** ensure that all users understand the requirements for retaining data such as the type of data they are storing, the correct location for storing and archiving data, and duration of retention.
+ 
+## Support and Maintenance 
+**Regular software updates** will be implemented in the system to ensure that security flaws are patched, new features are added, and that data protection and security are maintained. The system will also be designed to minimize downtime during updates and provide tools to roll back to previous versions if necessary.
+	**Responsive technical support** will be provided through automated monitoring and altering to detect and respond to any issues that users face.
+	**Customizable SLAs** (service level agreement) are provided through contracts between the provider of a service and the customer of the service provider that outline the agreed expectations, responsibilities, and metrics of the service. The JV’s Satellite Image Company has contracts for the WMS service that allow them to seek damages against third parties that misuse their data based on agreed clauses and terms.
+	**Training resources** will be offered to users to help them understand the system’s functionalities to complete their tasks and possibly provide feedback.
+
+## Workflow
+**Automation of routine processes** (i.e. approval process for documents or tasks) will be implemented to cut down the time and resources needed to handle data so users can focus on analyzing the data and make more informed decisions based on accurate information.
+	**Ability to create custom workflows according to specific business process requirements** enables users to speed up the process for decision making as they can quickly access data to spot trends and patterns and clearly communicate findings to other stakeholders.
